@@ -1,0 +1,33 @@
+.movieList {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.movie {
+  padding: 1rem;
+}
+
+.movieDetails {
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+
+.right {
+  margin-left: 1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: blue;
+}
