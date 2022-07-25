@@ -5,7 +5,7 @@ import Movie from "./Movie";
 const Movies = ({ data }) => {
   const [filteredData, setFilteredData] = useState();
   useEffect(() => {
-    setFilteredData(data);
+    setFilteredData(data); // filter the movie in search
   }, [data]);
   const handleSearch = (e) => {
     setFilteredData(

@@ -8,9 +8,11 @@ import MovieDetails from "./components/MovieDetails";
 const api = "https://api.tvmaze.com/shows";
 
 function App() {
+  // the main function for my app project
   const [movies, setMovies] = useState([]);
   useEffect(() => {
-    fetch(api)
+    //react hook
+    fetch(api) //fetch all the movies data from api
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
